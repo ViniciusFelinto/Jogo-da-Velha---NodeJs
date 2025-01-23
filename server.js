@@ -35,6 +35,8 @@ io.on('connection', (socket) => {
     socket.disconnect();  // Desconecta o jogador se a partida já estiver cheia
   }
 
+  socket.emit('id', jogadores.length);//informa o id do jogador
+
   // Quando um jogador faz uma jogada
   socket.on('jogada', (index) => {
     const jogador = jogadores.find(j => j.socket === socket);  // Identifica o jogador pela socket
@@ -57,6 +59,9 @@ io.on('connection', (socket) => {
         io.emit('status', `É a vez do Jogador ${jogadorAtual === 0 ? '1' : '2'}.`);
       }
     } else {
+      if(jogadores.length == 1)
+        socket.emit('status', `Aguarde a entrada de outro jogador!`);
+      else 
       // Informa que não é a vez do jogador
       socket.emit('status', `Aguarde sua vez, é a vez do Jogador ${jogadorAtual === 0 ? '1' : '2'}.`);
     }
