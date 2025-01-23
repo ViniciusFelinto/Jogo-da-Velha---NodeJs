@@ -5,30 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jogo da Velha</title>
   <style>
-    #tabuleiro {
-      display: grid;
-      grid-template-columns: repeat(3, 100px);
-      grid-gap: 5px;
-      margin: 20px;
-    }
-    .celula {
-      width: 100px;
-      height: 100px;
-      background-color: #f0f0f0;
-      text-align: center;
-      font-size: 2em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-    }
-    .celula:hover {
-      background-color: #ddd;
-    }
+    body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.celula {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.celula:hover {
+  background-color: #ddd;
+}
   </style>
 </head>
 <body>
   <h1>Jogo da Velha</h1>
+  <h2 id="jogador"></h2>
   <div id="status">Aguardando o outro jogador...</div>  <!-- Exibição do status -->
   <div id="tabuleiro"></div>  <!-- Tabuleiro do jogo da velha -->
 
@@ -44,6 +55,12 @@
     if (!statusElement || !boardElement) {
       console.error("Elemento do DOM não encontrado!");
     }
+
+    // Mostra id do jogador
+    socket.on('id', (id) => {
+      const jogador = document.getElementById('jogador');
+      jogador.textContent = 'Jogador ' + id;
+    });
 
     // Criando o tabuleiro dinamicamente
     for (let i = 0; i < 9; i++) {
