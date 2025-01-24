@@ -56,9 +56,9 @@ Isso irá instalar o Express (para servir os arquivos estáticos do jogo) e o So
 Crie os seguintes arquivos no diretório do projeto:
 
 **jogo-da-velha**
-**│-- index.html**
-**│-- script.js**
-**│-- server.js**
+- **│-- index.html**
+- **│-- script.js**
+- **│-- server.js**
 
 Uma opção é copiar o conteúdo desses arquivos do github e colar na maquina local (Ctl + C, Ctl + V)
 
@@ -83,26 +83,26 @@ Quando terminar de jogar, você pode parar o servidor pressionando **Ctrl + C** 
 ### 1. Clonando o Repositório
 Primeiro, abra o terminal ou prompt de comando e execute:
 
-git clone https://github.com/seu-usuario/jogo-da-velha.git
+**git clone https://github.com/seu-usuario/jogo-da-velha.git**
 
 Após a clonagem, entre no diretório do projeto:
 
-cd jogo-da-velha
+**cd jogo-da-velha**
 
 ### 2. Instalando as Dependências
 Para instalar as dependências necessárias, execute:
 
-npm install
+**npm install**
 
 Isso instalará:
 
-Express (para servir os arquivos do jogo).
-Socket.io (para comunicação em tempo real).
+- Express (para servir os arquivos do jogo).
+- Socket.io (para comunicação em tempo real).
 
 ### 3 - Após esses passos, seguir a inicialização do servidor descrita no primeiro tutorial
 
 
 ### Desenvolvido por:
-**João Paulo Silveira** https://github.com/JoaoSilveira16
-**Vinicius Sales Felinto** https://github.com/ViniciusFelinto
-**Vinicius Pinheiro** https://github.com/vini-pinheiro
+- **João Paulo Silveira** https://github.com/JoaoSilveira16
+- **Vinicius Sales Felinto** https://github.com/ViniciusFelinto
+- **Vinicius Pinheiro** https://github.com/vini-pinheiro
