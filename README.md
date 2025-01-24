@@ -1,7 +1,7 @@
 Jogo da Velha Multiplayer
 Este é um projeto simples de Jogo da Velha Multiplayer utilizando Node.js com Socket.io para comunicação em tempo real entre os jogadores.
 
-<b>Tecnologias Utilizadas<<b>
+<b>Tecnologias Utilizadas<b>
 Node.js: Ambiente de execução JavaScript no servidor.
 Express: Framework minimalista para Node.js, usado para servir arquivos estáticos.
 Socket.io: Biblioteca para comunicação em tempo real entre o servidor e os clientes.
