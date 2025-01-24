@@ -1,9 +1,3 @@
-
-Aqui está todo o texto corretamente formatado em Markdown para você copiar e colar diretamente no seu arquivo README.md:
-
-markdown
-Copiar
-Editar
 # Jogo da Velha Multiplayer  
 
 Este é um projeto simples de Jogo da Velha Multiplayer utilizando **Node.js** com **Socket.io** para comunicação em tempo real entre os jogadores.  
