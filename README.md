@@ -18,7 +18,7 @@ Antes de começar, você precisa ter o **Node.js** instalado no seu computador.
 1. Acesse o [site oficial do Node.js](https://nodejs.org/) e baixe a versão recomendada para a maioria dos usuários (LTS).  
 2. Siga as instruções de instalação para o seu sistema operacional.  
 
-Verificando a instalação do Node.js
+### Verificando a instalação do Node.js
 
 Após a instalação, abra o terminal ou prompt de comando e execute:
 node -v
