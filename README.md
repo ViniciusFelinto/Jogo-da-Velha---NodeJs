@@ -1,19 +1,28 @@
-Jogo da Velha Multiplayer
-Este é um projeto simples de Jogo da Velha Multiplayer utilizando Node.js com Socket.io para comunicação em tempo real entre os jogadores.
 
-Tecnologias Utilizadas:
+Aqui está todo o texto corretamente formatado em Markdown para você copiar e colar diretamente no seu arquivo README.md:
 
-Node.js: Ambiente de execução JavaScript no servidor.
-Express: Framework minimalista para Node.js, usado para servir arquivos estáticos.
-Socket.io: Biblioteca para comunicação em tempo real entre o servidor e os clientes.
-HTML, CSS e JavaScript: Para a interface gráfica do jogo.
+markdown
+Copiar
+Editar
+# Jogo da Velha Multiplayer  
 
-Requisitos
-Antes de começar, você precisa ter o Node.js instalado no seu computador.
+Este é um projeto simples de Jogo da Velha Multiplayer utilizando **Node.js** com **Socket.io** para comunicação em tempo real entre os jogadores.  
 
-Instalando o Node.js
-Acesse o site oficial do Node.js e baixe a versão recomendada para a maioria dos usuários (LTS).
-Siga as instruções de instalação para o seu sistema operacional.
+## Tecnologias Utilizadas  
+
+- **Node.js**: Ambiente de execução JavaScript no servidor.  
+- **Express**: Framework minimalista para Node.js, usado para servir arquivos estáticos.  
+- **Socket.io**: Biblioteca para comunicação em tempo real entre o servidor e os clientes.  
+- **HTML, CSS e JavaScript**: Para a interface gráfica do jogo.  
+
+## Requisitos  
+
+Antes de começar, você precisa ter o **Node.js** instalado no seu computador.  
+
+### Instalando o Node.js  
+
+1. Acesse o [site oficial do Node.js](https://nodejs.org/) e baixe a versão recomendada para a maioria dos usuários (LTS).  
+2. Siga as instruções de instalação para o seu sistema operacional.  
 
 Verificando a instalação do Node.js
 
